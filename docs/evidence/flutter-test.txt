@@ -1,0 +1,10 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading F:/1CS/FLUTTER/lecture6/test/overflow_demo_test.dart
+00:00 +0: F:/1CS/FLUTTER/lecture6/test/overflow_demo_test.dart: diagnostic entry reproduces 120px overflow then fixes widths
+00:00 +1: loading F:/1CS/FLUTTER/lecture6/test/widget_test.dart
+00:01 +1: F:/1CS/FLUTTER/lecture6/test/widget_test.dart: profile follows 340 / 16 / 56 / 12 geometry and equal stats
+00:01 +2: F:/1CS/FLUTTER/lecture6/test/widget_test.dart: six alignment cards position their three blocks correctly
+00:01 +3: F:/1CS/FLUTTER/lecture6/test/widget_test.dart: 2:1:1 remains fixed when content is long
+00:02 +4: F:/1CS/FLUTTER/lecture6/test/widget_test.dart: stack image loads and overlay stays inside its image
+00:02 +5: F:/1CS/FLUTTER/lecture6/test/widget_test.dart: all pages fit narrow 320px viewport
+00:02 +6: All tests passed!

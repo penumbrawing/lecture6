@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="330" font-family="PingFang SC, sans-serif">
+  <rect width="380" height="330" fill="#F2F5F7"/>
+  <rect x="20" y="18" width="340" height="294" rx="12" fill="#FFFFFF" stroke="#D8DEE3"/>
+  <rect x="36" y="34" width="56" height="56" rx="28" fill="#00897B"/>
+  <text x="64" y="70" fill="#FFFFFF" font-size="20" text-anchor="middle">胡</text>
+  <circle cx="86" cy="82" r="6" fill="#2E9E5B" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="106" y="58" font-size="18" font-weight="bold" fill="#1F2428">胡矿</text>
+  <text x="106" y="78" font-size="12" fill="#5F666D">移动应用开发教师</text>
+  <line x1="36" y1="108" x2="344" y2="108" stroke="#EDF0F2"/>
+  <text x="92" y="140" font-size="18" font-weight="bold" fill="#1F2428" text-anchor="middle">12</text>
+  <text x="92" y="158" font-size="11" fill="#5F666D" text-anchor="middle">讲义</text>
+  <text x="190" y="140" font-size="18" font-weight="bold" fill="#1F2428" text-anchor="middle">50</text>
+  <text x="190" y="158" font-size="11" fill="#5F666D" text-anchor="middle">题库</text>
+  <text x="288" y="140" font-size="18" font-weight="bold" fill="#1F2428" text-anchor="middle">3</text>
+  <text x="288" y="158" font-size="11" fill="#5F666D" text-anchor="middle">阶段</text>
+  <line x1="36" y1="176" x2="344" y2="176" stroke="#EDF0F2"/>
+  <g font-size="11" fill="#37474F">
+    <rect x="36" y="192" width="60" height="24" rx="12" fill="#E0F2F1"/><text x="66" y="208" text-anchor="middle">Flutter</text>
+    <rect x="104" y="192" width="52" height="24" rx="12" fill="#E0F2F1"/><text x="130" y="208" text-anchor="middle">Dart</text>
+    <rect x="164" y="192" width="76" height="24" rx="12" fill="#E0F2F1"/><text x="202" y="208" text-anchor="middle">TraeWork</text>
+    <rect x="248" y="192" width="76" height="24" rx="12" fill="#E0F2F1"/><text x="286" y="208" text-anchor="middle">TraeCode</text>
+  </g>
+  <text x="190" y="252" font-size="10" fill="#90A4AE" text-anchor="middle">容器340·内边距16·圆角12·阴影(0,2,8)</text>
+  <text x="190" y="268" font-size="10" fill="#90A4AE" text-anchor="middle">统计条三等分 Expanded · 标签 Wrap 横8纵6</text>
+  <text x="190" y="296" font-size="10" fill="#B0BEC5" text-anchor="middle">第6课 课堂设计稿 profile_card</text>
+</svg>

@@ -1,0 +1,105 @@
+Flutter assets will be downloaded from https://storage.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading F:/1CS/FLUTTER/lecture6/test/widget_test.dart
+00:00 +0: profile follows 340 / 16 / 56 / 12 geometry and equal stats
+00:00 +1: six alignment cards position their three blocks correctly
+00:00 +2: 2:1:1 remains fixed when content is long
+══╡ EXCEPTION CAUGHT BY FLUTTER FRAMEWORK ╞═════════════════════════════════════════════════════════
+The following assertion was thrown:
+ListTile background color or ink splashes may be invisible.
+The ListTile is wrapped in a DecoratedBox that has a background color. Because ListTile paints its
+background and ink splashes on the nearest Material ancestor, this DecoratedBox will hide those
+effects.
+To fix this, wrap the ListTile in its own Material widget, or remove the background color from the
+intermediate DecoratedBox.
+
+ListTile:
+  ListTile(selectedColor: Color(alpha: 1.0000, red: 0.2902, green: 0.3882, blue: 0.3725, colorSpace: ColorSpace.sRGB), contentPadding: EdgeInsets.zero, onTap: Closure: () => void)
+DecoratedBox: DecoratedBox(bg:
+    BoxDecoration(color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB), borderRadius: BorderRadius.circular(12.0),
+      boxShadow: [BoxShadow(Color(alpha: 0.1216, red: 0.0000, green:
+        0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB), Offset(0.0,
+        2.0), 8.0, 0.0, BlurStyle.normal)]
+      )
+  )
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER FRAMEWORK ╞═════════════════════════════════════════════════════════
+The following assertion was thrown:
+ListTile background color or ink splashes may be invisible.
+The ListTile is wrapped in a DecoratedBox that has a background color. Because ListTile paints its
+background and ink splashes on the nearest Material ancestor, this DecoratedBox will hide those
+effects.
+To fix this, wrap the ListTile in its own Material widget, or remove the background color from the
+intermediate DecoratedBox.
+
+ListTile:
+  ListTile(selectedColor: Color(alpha: 1.0000, red: 0.2902, green: 0.3882, blue: 0.3725, colorSpace: ColorSpace.sRGB), contentPadding: EdgeInsets.zero, onTap: Closure: () => void)
+DecoratedBox: DecoratedBox(bg:
+    BoxDecoration(color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB), borderRadius: BorderRadius.circular(12.0),
+      boxShadow: [BoxShadow(Color(alpha: 0.1216, red: 0.0000, green:
+        0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB), Offset(0.0,
+        2.0), 8.0, 0.0, BlurStyle.normal)]
+      )
+  )
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: null
+  Actual: 'Multiple exceptions (2) were detected during the running of the current test, and at
+least one was unexpected.'
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///F:/1CS/FLUTTER/lecture6/test/widget_test.dart:85:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///F:/1CS/FLUTTER/lecture6/test/widget_test.dart line 85
+The test description was:
+  2:1:1 remains fixed when content is long
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +2 -1: 2:1:1 remains fixed when content is long [E]
+  Test failed. See exception logs above.
+  The test description was: 2:1:1 remains fixed when content is long
+  
+00:01 +2 -1: stack image loads and overlay stays inside its image
+00:01 +3 -1: all pages fit narrow 320px viewport
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: null
+  Actual: FlutterError:<ListTile background color or ink splashes may be invisible.
+          The ListTile is wrapped in a DecoratedBox that has a background color. Because ListTile
+paints its background and ink splashes on the nearest Material ancestor, this DecoratedBox will hide
+those effects.
+          To fix this, wrap the ListTile in its own Material widget, or remove the background color
+from the intermediate DecoratedBox.>
+弹性
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///F:/1CS/FLUTTER/lecture6/test/widget_test.dart:125:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///F:/1CS/FLUTTER/lecture6/test/widget_test.dart line 125
+The test description was:
+  all pages fit narrow 320px viewport
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +3 -2: all pages fit narrow 320px viewport [E]
+  Test failed. See exception logs above.
+  The test description was: all pages fit narrow 320px viewport
+  
+00:01 +3 -2: Some tests failed.
+
+Failing tests:
+  F:/1CS/FLUTTER/lecture6/test/widget_test.dart: 2:1:1 remains fixed when content is long
+  F:/1CS/FLUTTER/lecture6/test/widget_test.dart: all pages fit narrow 320px viewport
